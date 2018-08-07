@@ -3,7 +3,7 @@
   "homepage": "https://github.com/veridict/json-types",
   "license": "MIT",
   "main": "",
-  "name": "@vtypes/json-types",
+  "name": "@types/json-types",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/veridict/json-types.git"
