@@ -1,0 +1,12 @@
+{
+  "description": "TypeScript definitions for json files",
+  "homepage": "https://github.com/veridict/json-types",
+  "license": "MIT",
+  "main": "",
+  "name": "json-types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veridict/json-types.git"
+  },
+  "version": "1.0.0"
+}
