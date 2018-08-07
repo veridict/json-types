@@ -8,20 +8,8 @@ TypeScript declarations for json files
 
 `npm install veridict/json-types`
 
-Add the following to `tsconfig.json`
 
-```json
-{
-  "compilerOptions": {
-    "typeRoots": [
-      "./node_modules/@types/",
-      "./node_modules/@vtypes/"
-    ]
-  }
-}
-```
 
-# Issues
+# Remarks
 
-The name of the bundle is `@vtypes/json-types` because naming it just `json-types` didn't work (even if the folder was specified in tsconfig.json). 
-Naming it @types/json-types didn't work either, because `npm install`(?) removed @types. 
+The name of the bundle is `@types/json-types` in order to make it easier to use (`node_modules/@types` is automatically included). However, this can cause issues if there is a conflicting package from https://github.com/DefinitelyTyped/DefinitelyTyped. 
